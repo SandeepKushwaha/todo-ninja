@@ -21,8 +21,8 @@
       if (document.getElementById("app-css") !== null) {
         const linkElement = document.getElementById("app-css");
         linkElement.href =
-          storedTheme === 'dark' ? "/assets/css/index.css"
-            : storedTheme === 'light' ? "/assets/css/index-light.css" : "/assets/css/index.css";
+          storedTheme === 'dark' ? "./assets/css/index.css"
+            : storedTheme === 'light' ? "./assets/css/index-light.css" : "./assets/css/index.css";
       } else {
         // Step 1: Create a new <link> element.
         const linkElement = document.createElement('link');
@@ -30,7 +30,7 @@
         // Step 2: Set attributes and properties.
         linkElement.rel = 'stylesheet';
         linkElement.type = 'text/css';
-        linkElement.href = '/assets/css/index.css';
+        linkElement.href = './assets/css/index.css';
 
         // Step 3: Append the element to the <head> element.
         const headElement = document.head;
@@ -65,8 +65,8 @@
 
     if (linkElement) {
       linkElement.href =
-        theme === 'dark' ? "/assets/css/index.css"
-          : theme === 'light' ? "/assets/css/index-light.css" : "/assets/css/index.css";
+        theme === 'dark' ? "./assets/css/index.css"
+          : theme === 'light' ? "./assets/css/index-light.css" : "./assets/css/index.css";
     }
   }
 
