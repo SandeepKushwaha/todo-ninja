@@ -31,9 +31,9 @@ This Todo app is a lightweight web application developed using HTML, CSS, and va
 ## Snapshots
 
 #### Desktop View
-![home dark theme](snaps\todo_ninja_desktop_home.jpg)
-![home light theme](snaps\todo_ninja_desktop_home_light.jpg)
-![All todos](snaps\todo_ninja_desktop_todos.jpg)
+![home dark theme](snaps/todo_ninja_desktop_home.jpg)
+![home light theme](snaps/todo_ninja_desktop_home_light.jpg)
+![All todos](snaps/todo_ninja_desktop_todos.jpg)
 ![completed todos tab](snaps/todo_ninja_desktop_completed.jpg)
 ![Confirmation to delete todo](snaps/todo_ninja_desktop_del_todo.jpg)
 
